@@ -12,15 +12,15 @@ alert( message );
 //2
 let sign = prompt('Enter number 0-9', "");
 let mess = (sign==0) ? ')' :
-  (sign===1) ? '!' :
-  (sign===2) ? '@' :
-  (sign===3) ? '#' :
-  (sign===4) ? '$' :
-  (sign===5) ? '%' :
-  (sign===6) ? '^' :
-  (sign===7) ? '&' :
-  (sign===8) ? '*' :
-  (sign===9) ? '(' :
+  (sign==1) ? '!' :
+  (sign==2) ? '@' :
+  (sign==3) ? '#' :
+  (sign==4) ? '$' :
+  (sign==5) ? '%' :
+  (sign==6) ? '^' :
+  (sign==7) ? '&' :
+  (sign==8) ? '*' :
+  (sign==9) ? '(' :
   (sign>9) ? 'It`s a big number' :
   'Please, enter a number';
   alert(mess);
