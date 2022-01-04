@@ -1,10 +1,11 @@
 //-------minimum-----//
 //1
 let age = prompt('Enter your age', "");
-let message = (age < 2) ? 'You are child!' :
-  (age < 18) ? 'You are teenager!' :
-  (age < 60) ? 'You are adult!' :
-  (age < 100) ? 'You are retired!' :
+let message = (age <= 11) ? 'You are child!' :
+  (age <= 17) ? 'You are teenager!' :
+  (age <= 59) ? 'You are adult!' :
+  (age >= 60 && age <=110) ? 'You are retired!' :
+  (age > 110) ? 'People don`t live that long' :
   'Unusual age!';
 alert( message );
 
